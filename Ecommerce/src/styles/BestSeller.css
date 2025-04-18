@@ -1,0 +1,91 @@
+.best-container {
+    margin: 20px;
+  }
+  
+  .best-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .best-header a {
+    font-weight: bold;
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  .best-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  .discount {
+    position: absolute;
+    background: green;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .brand {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .rating {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .price {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .strike {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 5px;
+    font-weight: normal;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .add-btn {
+    flex: 1;
+    border: 1px solid red;
+    color: red;
+    background: none;
+    padding: 6px;
+    border-radius: 4px;
+  }
+  
